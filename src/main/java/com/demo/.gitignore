@@ -1,0 +1,33 @@
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore build directories (e.g., Maven, Gradle, etc.)
+/target/
+/build/
+
+# Ignore dependency manager directories
+/.m2/
+/node_modules/
+
+# Ignore class files (compiled Java code)
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore system files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore configuration files that are user-specific
+*.iml
+
+# Ignore Java archives (JAR, WAR, EAR files)
+*.jar
+*.war
+*.ear
+
+# Ignore package management files if applicable
+package-lock.json
+yarn.lock
